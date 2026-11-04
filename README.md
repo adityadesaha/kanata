@@ -1,5 +1,7 @@
 # Adi's Custom Kanata Layout
 
+![colemak-wide-dhm layout](custom.svg)
+
 I have been using this modified colemak layout for a few years now,
 finally I'm happy enough to make it open source.
 
@@ -17,16 +19,13 @@ as other users frequently. That is why I don't have any custom
 commands executing from kanata. If you run kanata as another user, you
 might want to do cooler things with running arbitrary commands :-)
 
-The default QWERTY layout:
-![qwerty layer](default.svg)
-
-My custom colemak layout with "bottom-row-mods":
-![colemak-wide-dhm layout](custom.svg)
-
 The nav layer, so I don't have to stretch my fingers too much:
 ![navigation layer](navigation.svg)
 
-(fancy diagrams were made by my friend Claude, and some of it was
+The default QWERTY layout that comes with the laptop, for reference:
+![qwerty layer](default.svg)
+
+(fancy SVGs were made by my friend Claude, and some of it was
 hand-edited by me.)
 
 
