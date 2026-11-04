@@ -10,6 +10,7 @@ install:
 	mkdir -pv /etc/kanata/ ; \
 	cp -v ./kanata.kbd /etc/kanata/ ; \
 	cp -v ./kanata.service /etc/systemd/system/ ; \
+	systemctl daemon-reload
 
 clean:
 	rm -rfv /etc/kanata/ /etc/systemd/system/kanata.service
