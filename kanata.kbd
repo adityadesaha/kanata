@@ -42,29 +42,29 @@
 
 (defalias
   ;; tap = caps lock, hold = ralt
-  altcaps   (tap-hold-press $tap-time $hold-time caps ralt)
+  altcaps (tap-hold-press $tap-time $hold-time caps ralt)
 
   ;; bottom-row mods
-  xalt   (t! th x lalt $left-hand-keys)
-  cctl   (t! th c lctl $left-hand-keys)
-  dsft   (t! th d lsft $left-hand-keys)
-  hsft   (t! th h rsft $right-hand-keys)
-  ,ctl   (tap-hold-release $tap-time $hold-time , rctl)
-  .alt   (t! th . ralt $right-hand-keys)
+  xalt (t! th x lalt $left-hand-keys)
+  cctl (t! th c lctl $left-hand-keys)
+  dsft (t! th d lsft $left-hand-keys)
+  hsft (t! th h rsft $right-hand-keys)
+  ,ctl (tap-hold-release $tap-time $hold-time , rctl)
+  .alt (t! th . ralt $right-hand-keys)
 
   ;; layer-tap
-  fnav   (t! th f (layer-while-held navigation) $left-hand-keys)
+  fnav (t! th f (layer-while-held navigation) $left-hand-keys)
 
   ;; tap: one-shot shift, hold: meta
-  lsft   (tap-hold-release $tap-time $hold-time (one-shot-press $one-shot-time lsft) lmet)
-  rsft   (tap-hold-release $tap-time $hold-time (one-shot-press $one-shot-time rsft) rmet)
+  lsft (tap-hold-release $tap-time $hold-time (one-shot-press $one-shot-time lsft) lmet)
+  rsft (tap-hold-release $tap-time $hold-time (one-shot-press $one-shot-time rsft) rmet)
 
   ;; swap : and ;
-  semi   (fork S-; (unshift ;) (sft))
+  semi (fork S-; (unshift ;) (sft))
 
   ;; layer switching
-  to-adi     (layer-switch adi-colemak)
-  to-qwerty  (layer-switch qwerty))
+  to-adi    (layer-switch adi-colemak)
+  to-qwerty (layer-switch qwerty))
 
 ;;; Layers
 
@@ -95,11 +95,20 @@
   l up
   ; right
 
+  ;; easy access to the ctrl key, so I can press ctrl+arrow keys easily
   f lctl
 
-  ;; editing
+  ;; killing text
   u C-bspc
   p C-del
   i bspc
   o del
+
+  ;; big keys on the bottom row.
+  m    home
+  ,    pgdn
+  .    pgup
+  rsft end
+
+  ;; random binding that saves my pinky
   ' ret)
