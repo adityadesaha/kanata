@@ -9,63 +9,64 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
 .nav rect{fill:#085041;stroke:#02261E}.nav .t,.nav .tl,.nav .ft{fill:#E1F5EE}.nav .s{fill:#9FE1CB}
 .ch rect{fill:#712B13;stroke:#361306}.ch .t,.ch .tl,.ch .ft{fill:#FAECE7}.ch .s{fill:#F5C4B3}
 .sw rect{fill:#712B13;stroke:#361306}.sw .t,.sw .tl,.sw .ft{fill:#FAECE7}.sw .s{fill:#F5C4B3}
-.held rect{fill:#5DCAA5;stroke:#1D7A5C}.held text{fill:#04342C}.sup{font-size:24px;stroke:#FFFFFF;stroke-width:1.8}.bs{font-size:18px}</style>
+.held rect{fill:#5DCAA5;stroke:#1D7A5C}.held text{fill:#04342C}.l{text-anchor:start}.bt{font-size:41px;stroke:#FFFFFF;stroke-width:0.75}.ps{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-dasharray:2.5 1.5;stroke-dashoffset:1.25}.sup{font-size:24px;stroke:#FFFFFF;stroke-width:1.8}.bs{font-size:18px}</style>
   <defs>
+    <filter id="shadow" x="-2%" y="-5%" width="104%" height="112%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.55"/></filter>
     <mask id="tpcut"><rect width="856.0" height="324" fill="white"/><circle cx="400" cy="190" r="16" fill="black"/></mask>
     <clipPath id="tpkeys"><rect x="347" y="137" width="50" height="50" rx="3"/><rect x="403" y="137" width="50" height="50" rx="3"/><rect x="375" y="193" width="50" height="50" rx="3"/></clipPath>
   </defs>
-  <rect class="kb" x="10" y="10" width="836" height="308.5" rx="5.1"/>
+  <rect class="kb" x="10" y="10" width="836" height="308.5" rx="5.1" filter="url(#shadow)"/>
   <g class="n">
     <rect x="25" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="50" y="42">`</text>
+    <text class="t l bt" x="34" y="56">`</text>
   </g>
   <g class="n">
     <rect x="81" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="106" y="42">1</text>
+    <text class="t l" x="89" y="42">1</text>
   </g>
   <g class="n">
     <rect x="137" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="162" y="42">2</text>
+    <text class="t l" x="145" y="42">2</text>
   </g>
   <g class="n">
     <rect x="193" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="218" y="42">3</text>
+    <text class="t l" x="201" y="42">3</text>
   </g>
   <g class="n">
     <rect x="249" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="274" y="42">4</text>
+    <text class="t l" x="257" y="42">4</text>
   </g>
   <g class="n">
     <rect x="305" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="330" y="42">5</text>
+    <text class="t l" x="313" y="42">5</text>
   </g>
   <g class="n">
     <rect x="361" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="386" y="42">6</text>
+    <text class="t l" x="369" y="42">6</text>
   </g>
   <g class="n">
     <rect x="417" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="442" y="42">7</text>
+    <text class="t l" x="425" y="42">7</text>
   </g>
   <g class="n">
     <rect x="473" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="498" y="42">8</text>
+    <text class="t l" x="481" y="42">8</text>
   </g>
   <g class="n">
     <rect x="529" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="554" y="42">9</text>
+    <text class="t l" x="537" y="42">9</text>
   </g>
   <g class="n">
     <rect x="585" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="610" y="42">0</text>
+    <text class="t l" x="593" y="42">0</text>
   </g>
   <g class="n">
     <rect x="641" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="666" y="42">-</text>
+    <text class="t l" x="649" y="42">-</text>
   </g>
   <g class="n">
     <rect x="697" y="25" width="50" height="50" rx="3"/>
-    <text class="t" x="722" y="42">=</text>
+    <text class="t l" x="705" y="42">=</text>
   </g>
   <g class="n">
     <rect x="753" y="25" width="78" height="50" rx="3"/>
@@ -77,55 +78,55 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="109" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="134" y="98">Q</text>
+    <text class="t l" x="117" y="98">Q</text>
   </g>
   <g class="n">
     <rect x="165" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="190" y="98">W</text>
+    <text class="t l" x="173" y="98">W</text>
   </g>
   <g class="n">
     <rect x="221" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="246" y="98">E</text>
+    <text class="t l" x="229" y="98">E</text>
   </g>
   <g class="n">
     <rect x="277" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="302" y="98">R</text>
+    <text class="t l" x="285" y="98">R</text>
   </g>
   <g class="n">
     <rect x="333" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="358" y="98">T</text>
+    <text class="t l" x="341" y="98">T</text>
   </g>
   <g class="n">
     <rect x="389" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="414" y="98">Y</text>
+    <text class="t l" x="397" y="98">Y</text>
   </g>
   <g class="n">
     <rect x="445" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="470" y="98">U</text>
+    <text class="t l" x="453" y="98">U</text>
   </g>
   <g class="n">
     <rect x="501" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="526" y="98">I</text>
+    <text class="t l" x="509" y="98">I</text>
   </g>
   <g class="n">
     <rect x="557" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="582" y="98">O</text>
+    <text class="t l" x="565" y="98">O</text>
   </g>
   <g class="n">
     <rect x="613" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="638" y="98">P</text>
+    <text class="t l" x="621" y="98">P</text>
   </g>
   <g class="n">
     <rect x="669" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="694" y="98">[</text>
+    <text class="t l" x="677" y="98">[</text>
   </g>
   <g class="n">
     <rect x="725" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="750" y="98">]</text>
+    <text class="t l" x="733" y="98">]</text>
   </g>
   <g class="n">
     <rect x="781" y="81" width="50" height="50" rx="3"/>
-    <text class="t" x="806" y="98">\</text>
+    <text class="t l" x="789" y="98">\</text>
   </g>
   <g class="n">
     <rect x="25" y="137" width="92" height="50" rx="3"/>
@@ -133,47 +134,47 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="123" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="148" y="154">A</text>
+    <text class="t l" x="131" y="154">A</text>
   </g>
   <g class="n">
     <rect x="179" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="204" y="154">S</text>
+    <text class="t l" x="187" y="154">S</text>
   </g>
   <g class="n">
     <rect x="235" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="260" y="154">D</text>
+    <text class="t l" x="243" y="154">D</text>
   </g>
   <g class="n">
     <rect x="291" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="316" y="154">F</text>
+    <text class="t l" x="299" y="154">F</text>
   </g>
   <g class="n" mask="url(#tpcut)">
     <rect x="347" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="372" y="154">G</text>
+    <text class="t l" x="355" y="154">G</text>
   </g>
   <g class="n" mask="url(#tpcut)">
     <rect x="403" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="428" y="154">H</text>
+    <text class="t l" x="411" y="154">H</text>
   </g>
   <g class="n">
     <rect x="459" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="484" y="154">J</text>
+    <text class="t l" x="467" y="154">J</text>
   </g>
   <g class="n">
     <rect x="515" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="540" y="154">K</text>
+    <text class="t l" x="523" y="154">K</text>
   </g>
   <g class="n">
     <rect x="571" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="596" y="154">L</text>
+    <text class="t l" x="579" y="154">L</text>
   </g>
   <g class="n">
     <rect x="627" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="652" y="154">;</text>
+    <text class="t l" x="635" y="154">;</text>
   </g>
   <g class="n">
     <rect x="683" y="137" width="50" height="50" rx="3"/>
-    <text class="t" x="708" y="154">'</text>
+    <text class="t l" x="691" y="154">'</text>
   </g>
   <g class="n">
     <rect x="739" y="137" width="92" height="50" rx="3"/>
@@ -185,43 +186,43 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="151" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="176" y="210">Z</text>
+    <text class="t l" x="159" y="210">Z</text>
   </g>
   <g class="n">
     <rect x="207" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="232" y="210">X</text>
+    <text class="t l" x="215" y="210">X</text>
   </g>
   <g class="n">
     <rect x="263" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="288" y="210">C</text>
+    <text class="t l" x="271" y="210">C</text>
   </g>
   <g class="n">
     <rect x="319" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="344" y="210">V</text>
+    <text class="t l" x="327" y="210">V</text>
   </g>
   <g class="n" mask="url(#tpcut)">
     <rect x="375" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="391" y="221">B</text>
+    <text class="t l" x="383" y="221">B</text>
   </g>
   <g class="n">
     <rect x="431" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="456" y="210">N</text>
+    <text class="t l" x="439" y="210">N</text>
   </g>
   <g class="n">
     <rect x="487" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="512" y="210">M</text>
+    <text class="t l" x="495" y="210">M</text>
   </g>
   <g class="n">
     <rect x="543" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="568" y="210">,</text>
+    <text class="t l" x="551" y="210">,</text>
   </g>
   <g class="n">
     <rect x="599" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="624" y="210">.</text>
+    <text class="t l" x="607" y="210">.</text>
   </g>
   <g class="n">
     <rect x="655" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="680" y="210">/</text>
+    <text class="t l" x="663" y="210">/</text>
   </g>
   <g class="n">
     <rect x="711" y="193" width="120" height="50" rx="3"/>
@@ -237,26 +238,26 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="137" y="249" width="50" height="50" rx="3"/>
-    <text class="t sup" x="162" y="268">&#x25C7;</text>
+    <text class="t sup l" x="142" y="269">&#x25C7;</text>
   </g>
   <g class="sw">
     <rect x="193" y="249" width="50" height="50" rx="3"/>
-    <text class="t" x="218" y="266">LT</text>
+    <text class="t l" x="201" y="266">LT</text>
   </g>
   <g class="n">
     <rect x="249" y="249" width="274" height="50" rx="3"/>
   </g>
   <g class="n">
     <rect x="529" y="249" width="50" height="50" rx="3"/>
-    <text class="tl" x="554" y="266">Alt</text>
+    <text class="tl l" x="538" y="266">Alt</text>
   </g>
   <g class="n">
     <rect x="585" y="249" width="50" height="50" rx="3"/>
-    <text class="tl" x="610" y="266">PrtSc</text>
+    <path class="ps" d="M595 259h12v12h-12Z"/>
   </g>
   <g class="n">
     <rect x="641" y="249" width="50" height="50" rx="3"/>
-    <text class="tl" x="666" y="266">Ctrl</text>
+    <text class="tl l" x="650" y="266">Ctrl</text>
   </g>
   <text class="ac" x="764" y="274">Arrow Cluster</text>
   <circle class="cut" cx="400" cy="190" r="16" clip-path="url(#tpkeys)"/>
