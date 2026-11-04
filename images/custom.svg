@@ -9,7 +9,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
 .nav rect{fill:#085041;stroke:#02261E}.nav .t,.nav .tl,.nav .ft{fill:#E1F5EE}.nav .s{fill:#9FE1CB}
 .ch rect{fill:#712B13;stroke:#361306}.ch .t,.ch .tl,.ch .ft{fill:#FAECE7}.ch .s{fill:#F5C4B3}
 .sw rect{fill:#633806;stroke:#2E1902}.sw .t,.sw .tl,.sw .ft{fill:#FAEEDA}.sw .s{fill:#FAC775}
-.held rect{fill:#5DCAA5;stroke:#1D7A5C}.held text{fill:#04342C}.win{fill:#FFFFFF}.bs{font-size:20.4px}</style>
+.held rect{fill:#5DCAA5;stroke:#1D7A5C}.held text{fill:#04342C}.win{fill:#FFFFFF}.bs{font-size:18px}</style>
   <defs>
     <mask id="tpcut"><rect width="856.0" height="324" fill="white"/><circle cx="400" cy="190" r="16" fill="black"/></mask>
     <clipPath id="tpkeys"><rect x="347" y="137" width="50" height="50" rx="3"/><rect x="403" y="137" width="50" height="50" rx="3"/><rect x="375" y="193" width="50" height="50" rx="3"/></clipPath>
@@ -69,11 +69,11 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="753" y="25" width="78" height="50" rx="3"/>
-    <text class="t bs" x="792" y="42">&#x232B;</text>
+    <text class="t bs" x="810" y="42">&#x232B;</text>
   </g>
   <g class="n">
     <rect x="25" y="81" width="78" height="50" rx="3"/>
-    <text class="t" x="64" y="98">Tab</text>
+    <text class="tl" x="48" y="98">Tab</text>
   </g>
   <g class="n">
     <rect x="109" y="81" width="50" height="50" rx="3"/>
@@ -130,7 +130,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="ch">
     <rect x="25" y="137" width="92" height="50" rx="3"/>
-    <text class="t" x="71" y="154">Esc</text>
+    <text class="tl" x="50" y="154">Esc</text>
   </g>
   <g class="n">
     <rect x="123" y="137" width="50" height="50" rx="3"/>
@@ -178,12 +178,12 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="739" y="137" width="92" height="50" rx="3"/>
-    <text class="t" x="785" y="154">&#x23CE;</text>
+    <text class="tl" x="804" y="154">Enter</text>
   </g>
   <g class="mod">
     <rect x="25" y="193" width="120" height="50" rx="3"/>
-    <text class="t" x="85" y="210">&#x21E7;</text>
-    <text class="s" x="85" y="233">Super</text>
+    <text class="t" x="47" y="210">&#x21E7;</text>
+    <text class="s" x="50" y="232">Super</text>
   </g>
   <g class="mod">
     <rect x="151" y="193" width="50" height="50" rx="3"/>
@@ -206,7 +206,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n" mask="url(#tpcut)">
     <rect x="375" y="193" width="50" height="50" rx="3"/>
-    <text class="t" x="400" y="218">Z</text>
+    <text class="t" x="391" y="225">Z</text>
   </g>
   <g class="n">
     <rect x="431" y="193" width="50" height="50" rx="3"/>
@@ -233,12 +233,12 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="mod">
     <rect x="711" y="193" width="120" height="50" rx="3"/>
-    <text class="t" x="771" y="210">&#x21E7;</text>
-    <text class="s" x="771" y="233">Super</text>
+    <text class="t" x="810" y="209">&#x21E7;</text>
+    <text class="s" x="810" y="231">Super</text>
   </g>
   <g class="n">
     <rect x="25" y="249" width="50" height="50" rx="3"/>
-    <text class="t" x="50" y="266">Ctrl</text>
+    <text class="tl" x="45" y="266">Ctrl</text>
   </g>
   <g class="dim">
     <rect x="81" y="249" width="50" height="50" rx="3"/>
