@@ -41,8 +41,8 @@
 ;;; Aliases
 
 (defalias
-  ;; lalt: tap = caps lock, hold = alt
-  lalt   (tap-hold-press $tap-time $hold-time caps lalt)
+  ;; tap = caps lock, hold = ralt
+  altcaps   (tap-hold-press $tap-time $hold-time caps ralt)
 
   ;; bottom-row mods
   xalt   (t! th x lalt $left-hand-keys)
@@ -63,7 +63,7 @@
   semi   (fork S-; (unshift ;) (sft))
 
   ;; layer switching
-  to-adi     (layer-switch colemak-adi)
+  to-adi     (layer-switch adi-colemak)
   to-qwerty  (layer-switch qwerty))
 
 ;;; Layers
@@ -72,22 +72,18 @@
 
 ;;;; Colemak-adi
 
-;; Current problems with colemak-adi:
-;; 1. number rows are harder to deal with. Solution: learn better touchtyping
-;; 2. harder to press the right shift key. Solution: better pinky control,
-;;                                                   better hand position.
 (deflayer adi-colemak
     caps
     grv    1      2      3      4      5      6      7      8      9      0      -      =      bspc
-    tab    q      $w     @fnav  p      b      [      j      l      u      y      @semi  '      \
+    tab    q      w      @fnav  p      b      [      j      l      u      y      @semi  '      \
     esc    a      r      s      t      g      ]      m      n      e      i      o      ret
-    @lsft  $x     @cctl  @dsft  v      z      /      k      @hsft  @,ctl  @.alt  @rsft
-    lctl   lmet   @lalt                       spc                  @to-qwerty  lrld   rctl))
+    @lsft  x      @cctl  @dsft  v      z      /      k      @hsft  @,ctl  @.alt  @rsft
+    lctl   lmet   @to-qwerty                 spc         @altcaps lrld   rctl)
 
 ;;;; Qwerty
 
 (deflayermap (qwerty)
-  ralt @to-adi)
+  lalt @to-adi)
 
 ;;;; Navigation
 
