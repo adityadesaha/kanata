@@ -62,13 +62,8 @@
   ;; swap : and ;
   semi   (fork S-; (unshift ;) (sft))
 
-  ;; readline: C-w -> C-bspc, C-x -> C-w
-  wrl    (switch (lctl rctl) bspc break () w break)
-  xaltr  (t! th (switch (lctl rctl) w break () x break) lalt $left-hand-keys)
-
   ;; layer switching
   to-adi     (layer-switch colemak-adi)
-  to-adi-rl  (layer-switch colemak-adi-readline)
   to-qwerty  (layer-switch qwerty))
 
 ;;; Layers
@@ -81,20 +76,13 @@
 ;; 1. number rows are harder to deal with. Solution: learn better touchtyping
 ;; 2. harder to press the right shift key. Solution: better pinky control,
 ;;                                                   better hand position.
-(deftemplate colemak-adi-layer (name w x ralt)
-  (deflayer $name
+(deflayer adi-colemak
     caps
     grv    1      2      3      4      5      6      7      8      9      0      -      =      bspc
     tab    q      $w     @fnav  p      b      [      j      l      u      y      @semi  '      \
     esc    a      r      s      t      g      ]      m      n      e      i      o      ret
     @lsft  $x     @cctl  @dsft  v      z      /      k      @hsft  @,ctl  @.alt  @rsft
-    lctl   lmet   @lalt                       spc                  $ralt  lrld   rctl))
-
-;; ralt toggles colemak-adi <-> qwerty.
-;; colemak-adi-readline is currently unreachable (@to-adi-rl is unbound).
-;;                    name                  w     x       ralt
-(t! colemak-adi-layer colemak-adi           w     @xalt   @to-qwerty)
-(t! colemak-adi-layer colemak-adi-readline  @wrl  @xaltr  @to-qwerty)
+    lctl   lmet   @lalt                       spc                  @to-qwerty  lrld   rctl))
 
 ;;;; Qwerty
 
