@@ -17,11 +17,11 @@ as other users frequently. That is why I don't have any custom
 commands executing from kanata. If you run kanata as another user, you
 might want to do cooler things with running arbitrary commands :-)
 
-My custom colemak layout with "bottom-row-mods":
-![colemak-wide-dhm layout](colemak-adi.svg)
-
 The default QWERTY layout:
-![qwerty layer](qwerty.svg)
+![qwerty layer](default.svg)
+
+My custom colemak layout with "bottom-row-mods":
+![colemak-wide-dhm layout](custom.svg)
 
 The nav layer, so I don't have to stretch my fingers too much:
 ![navigation layer](navigation.svg)
