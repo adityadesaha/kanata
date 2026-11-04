@@ -8,7 +8,6 @@
 ;;; Source layout
 
 (defsrc
-  esc
   grv    1      2      3      4      5      6      7      8      9      0      -      =      bspc
   tab    q      w      e      r      t      y      u      i      o      p      [      ]      \
   caps   a      s      d      f      g      h      j      k      l      ;      '      ret
@@ -73,12 +72,11 @@
 ;;;; Colemak-adi
 
 (deflayer adi-colemak
-    caps
     grv    1      2      3      4      5      6      7      8      9      0      -      =      bspc
     tab    q      w      @fnav  p      b      [      j      l      u      y      @semi  '      \
     esc    a      r      s      t      g      ]      m      n      e      i      o      ret
     @lsft  x      @cctl  @dsft  v      z      /      k      @hsft  @,ctl  @.alt  @rsft
-    lctl   lmet   @to-qwerty                 spc         @altcaps lrld   rctl)
+    lctl   lmet   @to-qwerty                 spc         @altcaps sys   rctl)
 
 ;;;; Qwerty
 
