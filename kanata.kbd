@@ -119,9 +119,3 @@
   i bspc
   o del
   ' ret)
-
-;; Local Variables:
-;; outline-regexp: ";;;+ "
-;; outline-heading-alist: ((";;; " . 1) (";;;; " . 2))
-;; eval: (progn (outline-minor-mode 1) (outline-hide-sublevels 2))
-;; End:
