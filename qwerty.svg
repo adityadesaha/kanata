@@ -1,28 +1,23 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="846" height="370" viewBox="0 0 846 370">
   <style>text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,"DejaVu Sans",sans-serif;text-anchor:middle;dominant-baseline:central}
+.kb{fill:#000000;stroke:#5F5E5A;stroke-width:2}.tp{fill:#E2231A;stroke:#8A1410;stroke-width:1}
 .ti{font-size:17px;font-weight:500;text-anchor:start;fill:#2C2C2A}.su{font-size:13px;text-anchor:start;fill:#5F5E5A}
 rect{stroke-width:1}.t{font-size:15px}.tl{font-size:12px}.s{font-size:11px}.ft{font-size:10px}
-.n rect{fill:#FFFFFF;stroke:#C9C7BE}.n .t,.n .tl{fill:#2C2C2A}.n .s{fill:#5F5E5A}
-.blank rect{fill:#F6F5F1;stroke:#E2E0D8}
-.dim rect,.ud rect{fill:none;stroke:#C9C7BE;stroke-dasharray:3 3}.dim text,.ud text{fill:#888780}
-.mod rect{fill:#EEEDFE;stroke:#AFA9EC}.mod .t,.mod .tl{fill:#3C3489}.mod .s{fill:#534AB7}
-.nav rect{fill:#E1F5EE;stroke:#5DCAA5}.nav .t,.nav .tl{fill:#085041}.nav .s{fill:#0F6E56}
-.ch rect{fill:#FAECE7;stroke:#F0997B}.ch .t,.ch .tl{fill:#712B13}.ch .s{fill:#993C1D}
-.sw rect{fill:#FAEEDA;stroke:#EF9F27}.sw .t,.sw .tl{fill:#633806}.sw .s{fill:#854F0B}
-.held rect{fill:#1D9E75;stroke:#1D9E75}.held text{fill:#FFFFFF}
-@media (prefers-color-scheme:dark){.ti{fill:#E8E6DE}.su{fill:#B4B2A9}
-.n rect{fill:#2C2C2A;stroke:#5F5E5A}.n .t,.n .tl{fill:#F1EFE8}.n .s{fill:#B4B2A9}
-.blank rect{fill:#232321;stroke:#3A3A37}.dim rect,.ud rect{stroke:#5F5E5A}.dim text,.ud text{fill:#888780}
-.mod rect{fill:#3C3489;stroke:#7F77DD}.mod .t,.mod .tl{fill:#EEEDFE}.mod .s{fill:#CECBF6}
-.nav rect{fill:#085041;stroke:#1D9E75}.nav .t,.nav .tl{fill:#E1F5EE}.nav .s{fill:#9FE1CB}
-.ch rect{fill:#712B13;stroke:#D85A30}.ch .t,.ch .tl{fill:#FAECE7}.ch .s{fill:#F5C4B3}
-.sw rect{fill:#633806;stroke:#BA7517}.sw .t,.sw .tl{fill:#FAEEDA}.sw .s{fill:#FAC775}
-.held rect{fill:#5DCAA5;stroke:#5DCAA5}.held text{fill:#04342C}}</style>
-  <text class="ti" x="20" y="28">right alt returns to colemak layer</text>
+.n rect{fill:#141414;stroke:#5F5E5A}.n .t,.n .tl,.n .ft{fill:#FFFFFF}.n .s{fill:#B4B2A9}
+.blank rect{fill:#0A0A0A;stroke:#2C2C2A}
+.dim rect,.ud rect{fill:none;stroke:#5F5E5A;stroke-dasharray:3 3}.dim text,.ud text{fill:#888780}
+.mod rect{fill:#3C3489;stroke:#7F77DD}.mod .t,.mod .tl,.mod .ft{fill:#EEEDFE}.mod .s{fill:#CECBF6}
+.nav rect{fill:#085041;stroke:#1D9E75}.nav .t,.nav .tl,.nav .ft{fill:#E1F5EE}.nav .s{fill:#9FE1CB}
+.ch rect{fill:#712B13;stroke:#D85A30}.ch .t,.ch .tl,.ch .ft{fill:#FAECE7}.ch .s{fill:#F5C4B3}
+.sw rect{fill:#633806;stroke:#BA7517}.sw .t,.sw .tl,.sw .ft{fill:#FAEEDA}.sw .s{fill:#FAC775}
+.held rect{fill:#5DCAA5;stroke:#5DCAA5}.held text{fill:#04342C}
+@media (prefers-color-scheme:dark){.ti{fill:#E8E6DE}.su{fill:#B4B2A9}}</style>
+  <rect class="kb" x="10" y="46" width="826" height="314" rx="12"/>
+  <text class="ti" x="20" y="28">left alt returns to colemak layer</text>
   <g class="n">
     <rect x="20" y="56" width="50" height="24" rx="6"/>
-    <text class="ft" x="45.0" y="68.0">esc</text>
+    <text class="ft" x="45.0" y="68.0">Esc</text>
   </g>
   <g class="dim">
     <rect x="74" y="56" width="43.25" height="24" rx="6"/>
@@ -146,47 +141,47 @@ rect{stroke-width:1}.t{font-size:15px}.tl{font-size:12px}.s{font-size:11px}.ft{f
   </g>
   <g class="n">
     <rect x="20" y="138" width="77.0" height="50" rx="6"/>
-    <text class="t" x="58.5" y="163.0">tab</text>
+    <text class="t" x="58.5" y="163.0">Tab</text>
   </g>
   <g class="n">
     <rect x="101.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="126.0" y="163.0">q</text>
+    <text class="t" x="126.0" y="163.0">Q</text>
   </g>
   <g class="n">
     <rect x="155.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="180.0" y="163.0">w</text>
+    <text class="t" x="180.0" y="163.0">W</text>
   </g>
   <g class="n">
     <rect x="209.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="234.0" y="163.0">e</text>
+    <text class="t" x="234.0" y="163.0">E</text>
   </g>
   <g class="n">
     <rect x="263.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="288.0" y="163.0">r</text>
+    <text class="t" x="288.0" y="163.0">R</text>
   </g>
   <g class="n">
     <rect x="317.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="342.0" y="163.0">t</text>
+    <text class="t" x="342.0" y="163.0">T</text>
   </g>
   <g class="n">
     <rect x="371.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="396.0" y="163.0">y</text>
+    <text class="t" x="396.0" y="163.0">Y</text>
   </g>
   <g class="n">
     <rect x="425.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="450.0" y="163.0">u</text>
+    <text class="t" x="450.0" y="163.0">U</text>
   </g>
   <g class="n">
     <rect x="479.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="504.0" y="163.0">i</text>
+    <text class="t" x="504.0" y="163.0">I</text>
   </g>
   <g class="n">
     <rect x="533.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="558.0" y="163.0">o</text>
+    <text class="t" x="558.0" y="163.0">O</text>
   </g>
   <g class="n">
     <rect x="587.0" y="138" width="50" height="50" rx="6"/>
-    <text class="t" x="612.0" y="163.0">p</text>
+    <text class="t" x="612.0" y="163.0">P</text>
   </g>
   <g class="n">
     <rect x="641.0" y="138" width="50" height="50" rx="6"/>
@@ -202,43 +197,43 @@ rect{stroke-width:1}.t{font-size:15px}.tl{font-size:12px}.s{font-size:11px}.ft{f
   </g>
   <g class="n">
     <rect x="20" y="192" width="90.5" height="50" rx="6"/>
-    <text class="tl" x="65.25" y="217.0">caps</text>
+    <text class="tl" x="65.25" y="217.0">Caps</text>
   </g>
   <g class="n">
     <rect x="114.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="139.5" y="217.0">a</text>
+    <text class="t" x="139.5" y="217.0">A</text>
   </g>
   <g class="n">
     <rect x="168.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="193.5" y="217.0">s</text>
+    <text class="t" x="193.5" y="217.0">S</text>
   </g>
   <g class="n">
     <rect x="222.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="247.5" y="217.0">d</text>
+    <text class="t" x="247.5" y="217.0">D</text>
   </g>
   <g class="n">
     <rect x="276.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="301.5" y="217.0">f</text>
+    <text class="t" x="301.5" y="217.0">F</text>
   </g>
   <g class="n">
     <rect x="330.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="355.5" y="217.0">g</text>
+    <text class="t" x="355.5" y="217.0">G</text>
   </g>
   <g class="n">
     <rect x="384.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="409.5" y="217.0">h</text>
+    <text class="t" x="409.5" y="217.0">H</text>
   </g>
   <g class="n">
     <rect x="438.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="463.5" y="217.0">j</text>
+    <text class="t" x="463.5" y="217.0">J</text>
   </g>
   <g class="n">
     <rect x="492.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="517.5" y="217.0">k</text>
+    <text class="t" x="517.5" y="217.0">K</text>
   </g>
   <g class="n">
     <rect x="546.5" y="192" width="50" height="50" rx="6"/>
-    <text class="t" x="571.5" y="217.0">l</text>
+    <text class="t" x="571.5" y="217.0">L</text>
   </g>
   <g class="n">
     <rect x="600.5" y="192" width="50" height="50" rx="6"/>
@@ -258,31 +253,31 @@ rect{stroke-width:1}.t{font-size:15px}.tl{font-size:12px}.s{font-size:11px}.ft{f
   </g>
   <g class="n">
     <rect x="141.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="166.5" y="271.0">z</text>
+    <text class="t" x="166.5" y="271.0">Z</text>
   </g>
   <g class="n">
     <rect x="195.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="220.5" y="271.0">x</text>
+    <text class="t" x="220.5" y="271.0">X</text>
   </g>
   <g class="n">
     <rect x="249.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="274.5" y="271.0">c</text>
+    <text class="t" x="274.5" y="271.0">C</text>
   </g>
   <g class="n">
     <rect x="303.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="328.5" y="271.0">v</text>
+    <text class="t" x="328.5" y="271.0">V</text>
   </g>
   <g class="n">
     <rect x="357.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="382.5" y="271.0">b</text>
+    <text class="t" x="382.5" y="271.0">B</text>
   </g>
   <g class="n">
     <rect x="411.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="436.5" y="271.0">n</text>
+    <text class="t" x="436.5" y="271.0">N</text>
   </g>
   <g class="n">
     <rect x="465.5" y="246" width="50" height="50" rx="6"/>
-    <text class="t" x="490.5" y="271.0">m</text>
+    <text class="t" x="490.5" y="271.0">M</text>
   </g>
   <g class="n">
     <rect x="519.5" y="246" width="50" height="50" rx="6"/>
@@ -302,35 +297,35 @@ rect{stroke-width:1}.t{font-size:15px}.tl{font-size:12px}.s{font-size:11px}.ft{f
   </g>
   <g class="n">
     <rect x="20" y="300" width="50" height="50" rx="6"/>
-    <text class="t" x="45.0" y="325.0">ctrl</text>
+    <text class="t" x="45.0" y="325.0">Ctrl</text>
   </g>
   <g class="dim">
     <rect x="74" y="300" width="50" height="50" rx="6"/>
-    <text class="tl" x="99.0" y="325.0">fn</text>
+    <text class="tl" x="99.0" y="325.0">Fn</text>
   </g>
   <g class="n">
     <rect x="128" y="300" width="50" height="50" rx="6"/>
-    <text class="tl" x="153.0" y="325.0">meta</text>
+    <text class="tl" x="153.0" y="325.0">Super</text>
   </g>
-  <g class="n">
+  <g class="sw">
     <rect x="182" y="300" width="50" height="50" rx="6"/>
-    <text class="t" x="207.0" y="325.0">alt</text>
+    <text class="t" x="207.0" y="317.0">adi</text>
+    <text class="s" x="207.0" y="336.0">toggle</text>
   </g>
   <g class="n">
     <rect x="236" y="300" width="266" height="50" rx="6"/>
   </g>
-  <g class="sw">
+  <g class="n">
     <rect x="506" y="300" width="50" height="50" rx="6"/>
-    <text class="t" x="531.0" y="317.0">adi</text>
-    <text class="s" x="531.0" y="336.0">toggle</text>
+    <text class="t" x="531.0" y="325.0">Alt</text>
   </g>
   <g class="n">
     <rect x="560" y="300" width="50" height="50" rx="6"/>
-    <text class="tl" x="585.0" y="325.0">prtsc</text>
+    <text class="tl" x="585.0" y="325.0">PrtSc</text>
   </g>
   <g class="n">
     <rect x="614" y="300" width="50" height="50" rx="6"/>
-    <text class="tl" x="639.0" y="325.0">ctrl</text>
+    <text class="tl" x="639.0" y="325.0">Ctrl</text>
   </g>
   <g class="dim">
     <rect x="668" y="300" width="50" height="50" rx="6"/>
@@ -346,4 +341,5 @@ rect{stroke-width:1}.t{font-size:15px}.tl{font-size:12px}.s{font-size:11px}.ft{f
     <rect x="776" y="300" width="50" height="50" rx="6"/>
     <text class="t" x="801.0" y="325.0">&#x2192;</text>
   </g>
+  <circle class="tp" cx="382.5" cy="244" r="9"/>
 </svg>
