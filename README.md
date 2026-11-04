@@ -1,7 +1,7 @@
 # adi's kanata layout
 
-![colemak-adi layer](kb/colemak-adi.svg)
+![colemak-adi layer](colemak-adi.svg)
 
-![qwerty layer](kb/qwerty.svg)
+![qwerty layer](qwerty.svg)
 
-![navigation layer](kb/navigation.svg)
+![navigation layer](navigation.svg)
