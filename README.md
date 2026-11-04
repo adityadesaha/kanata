@@ -15,7 +15,7 @@ the particular keyboard layout.
 Also I primarily run the kanata process as root, since I use the TTY
 as other users frequently. That is why I don't have any custom
 commands executing from kanata. If you run kanata as another user, you
-might want to do cooler things with running arbitrary commands :-).
+might want to do cooler things with running arbitrary commands :-)
 
 My custom colemak layout with "bottom-row-mods":
 ![colemak-wide-dhm layout](colemak-adi.svg)
