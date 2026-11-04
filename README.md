@@ -1,6 +1,6 @@
-# Adi's Custom Kanata Layout
-
 ![colemak-wide-dhm layout](images/custom.svg)
+
+## Adi's Custom Kanata Layout
 
 I have been using this modified colemak layout for a few years now,
 finally I'm happy enough to make it open source.
