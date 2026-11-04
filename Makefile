@@ -1,6 +1,6 @@
 default: check
 
-test:
+test: check
 	./test-local-cfg.sh
 
 check:

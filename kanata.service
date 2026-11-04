@@ -1,0 +1,19 @@
+[Unit]
+Description=Kanata Keyboard Manager
+DefaultDependencies=no
+After=systemd-udev-trigger.service systemd-udevd.service
+Before=sysinit.target getty-pre.target getty.target
+
+Wants=systemd-udev-trigger.service
+Conflicts=shutdown.service
+Before=shutdown.target
+
+[Service]
+Type=simple
+ExecStart=kanata --cfg /etc/kanata/kanata.kbd
+
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=sysinit.target
