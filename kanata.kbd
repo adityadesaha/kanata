@@ -106,6 +106,7 @@
   m    home
   ,    pgdn
   .    pgup
+  /    end
   rsft end
 
   ;; random binding that saves my pinky
