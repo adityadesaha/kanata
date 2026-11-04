@@ -26,4 +26,17 @@ The default QWERTY layout:
 The nav layer, so I don't have to stretch my fingers too much:
 ![navigation layer](navigation.svg)
 
-(fancy diagrams were made by my friend claude)
+(fancy diagrams were made by my friend Claude, and some of it was
+hand-edited by me.)
+
+
+## Testing, Compiling, Using
+
+
+- `make test` runs kanata, to test. It assumes you have the relevant
+  user permissions.
+
+- `make check` runs `kanata --check`, so it just checks the
+  configuration file to make sure there are no 
+
+
