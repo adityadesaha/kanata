@@ -1,7 +1,10 @@
-default: test
+default: check
 
 test:
 	./test-local-cfg.sh
+
+check:
+	kanata -c ./kanata.kbd --check
 
 install:
 	mkdir -pv /etc/kanata/ ; \
