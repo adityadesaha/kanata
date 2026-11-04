@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="856" height="328.5" viewBox="0 0 856 328.5">
   <style>text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,"DejaVu Sans",sans-serif;text-anchor:middle;dominant-baseline:central;font-weight:600}
-.kb{fill:#5F5E5A;stroke:#2C2C2A;stroke-width:2}.tp{fill:#E2231A;stroke:#8A1410;stroke-width:1}
+.kb{fill:#5F5E5A;stroke:#2C2C2A;stroke-width:2}.tp{fill:#E2231A;stroke:#6B0F0B;stroke-width:3}
 rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft{font-size:11px}
 .n rect,.blank rect{fill:#2A2A28;stroke:#0A0A0A}.cut{fill:none;stroke:#0A0A0A;stroke-width:1.5}.n .t,.n .tl,.n .ft{fill:#FFFFFF}.n .s{fill:#D3D1C7}
 .dim rect{fill:none;stroke:none}.dim text{fill:#B4B2A9}.ac{font-size:14px;fill:#B4B2A9}
 .mod rect{fill:#3C3489;stroke:#1C1846}.mod .t,.mod .tl,.mod .ft{fill:#EEEDFE}.mod .s{fill:#CECBF6}
 .nav rect{fill:#085041;stroke:#02261E}.nav .t,.nav .tl,.nav .ft{fill:#E1F5EE}.nav .s{fill:#9FE1CB}
 .ch rect{fill:#712B13;stroke:#361306}.ch .t,.ch .tl,.ch .ft{fill:#FAECE7}.ch .s{fill:#F5C4B3}
-.sw rect{fill:#633806;stroke:#2E1902}.sw .t,.sw .tl,.sw .ft{fill:#FAEEDA}.sw .s{fill:#FAC775}
-.held rect{fill:#5DCAA5;stroke:#1D7A5C}.held text{fill:#04342C}.win{fill:#FFFFFF}</style>
+.sw rect{fill:#712B13;stroke:#361306}.sw .t,.sw .tl,.sw .ft{fill:#FAECE7}.sw .s{fill:#F5C4B3}
+.held rect{fill:#5DCAA5;stroke:#1D7A5C}.held text{fill:#04342C}</style>
   <defs>
     <mask id="tpcut"><rect width="856.0" height="324" fill="white"/><circle cx="400" cy="190" r="16" fill="black"/></mask>
     <clipPath id="tpkeys"><rect x="347" y="137" width="50" height="50" rx="3"/><rect x="403" y="137" width="50" height="50" rx="3"/><rect x="375" y="193" width="50" height="50" rx="3"/></clipPath>
@@ -189,7 +189,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="nav">
     <rect x="711" y="193" width="120" height="50" rx="3"/>
-    <text class="tl" x="771" y="210">End</text>
+    <text class="tl" x="810" y="210">End</text>
   </g>
   <g class="dim">
     <rect x="81" y="249" width="50" height="50" rx="3"/>
@@ -218,5 +218,5 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <text class="ac" x="764" y="274">Arrow Cluster</text>
   <circle class="cut" cx="400" cy="190" r="16" clip-path="url(#tpkeys)"/>
-  <circle class="tp" cx="400" cy="190" r="10.5"/>
+  <circle class="tp" cx="400" cy="190" r="12"/>
 </svg>
