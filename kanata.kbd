@@ -40,9 +40,6 @@
 ;;; Aliases
 
 (defalias
-  ;; tap = caps lock, hold = ralt
-  altcaps (tap-hold-press $tap-time $hold-time caps ralt)
-
   ;; bottom-row mods
   xalt (t! th x lalt $left-hand-keys)
   cctl (t! th c lctl $left-hand-keys)
@@ -74,9 +71,9 @@
 (deflayer adi-colemak
     grv    1      2      3      4      5      6      7      8      9      0      -      =      bspc
     tab    q      w      @fnav  p      b      [      j      l      u      y      @semi  '      \
-    esc    a      r      s      t      g      ]      m      n      e      i      o      ret
+    esc    a      r      s      t      g      ]      m      n      e      i      o      caps
     @lsft  @xalt  @cctl  @dsft  v      z      /      k      @hsft  @,ctl  @.alt  @rsft
-    lctl   lmet   @to-qwerty                 spc         @altcaps sys   rctl)
+    lctl   lmet   @to-qwerty                 spc         ret      sys   rctl)
 
 ;;;; Qwerty
 
