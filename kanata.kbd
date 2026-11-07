@@ -50,6 +50,7 @@
 
   ;; layer-tap
   fnav (t! th f (layer-while-held navigation) $left-hand-keys)
+  wnum (t! th w (layer-while-held numbers) $left-hand-keys)
 
   ;; tap: one-shot shift, hold: meta
   lsft (tap-hold-release $tap-time $hold-time (one-shot-press $one-shot-time lsft) lmet)
@@ -70,7 +71,7 @@
 
 (deflayer adi-colemak
     grv    1      2      3      4      5      6      7      8      9      0      -      =      bspc
-    tab    q      w      @fnav  p      b      [      j      l      u      y      @semi  '      \
+    tab    q      @wnum  @fnav  p     b      [      j      l      u      y      @semi  '      \
     esc    a      r      s      t      g      ]      m      n      e      i      o      caps
     @lsft  @xalt  @cctl  @dsft  v      z      /      k      @hsft  @,ctl  @.alt  @rsft
     lctl   lmet   @to-qwerty                 spc         ret      sys   rctl)
@@ -108,3 +109,13 @@
 
   ;; random binding that saves my pinky
   ' ret)
+
+;;;; Numbers
+
+;; Numpad on the right hand, shifted one key right like navigation.
+(deflayermap (numbers)
+  i 7  o 8  p 9
+  k 4  l 5  ; 6
+  , 1  . 2  / 3
+  ' 0
+  j bspc)
