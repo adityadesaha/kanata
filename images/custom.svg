@@ -179,7 +179,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   </g>
   <g class="n">
     <rect x="739" y="137" width="92" height="50" rx="3"/>
-    <text class="tl" x="804" y="154">Enter</text>
+    <text class="tl" x="806" y="154">Caps</text>
   </g>
   <g class="mod">
     <rect x="25" y="193" width="120" height="50" rx="3"/>
@@ -256,10 +256,9 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   <g class="n">
     <rect x="249" y="249" width="274" height="50" rx="3"/>
   </g>
-  <g class="mod">
+  <g class="n">
     <rect x="529" y="249" width="50" height="50" rx="3"/>
-    <text class="tl l" x="538" y="266">Caps</text>
-    <text class="s l" x="538" y="289">Alt</text>
+    <text class="t l" x="536" y="264">&#x23CE;</text>
   </g>
   <g class="n">
     <rect x="585" y="249" width="50" height="50" rx="3"/>
