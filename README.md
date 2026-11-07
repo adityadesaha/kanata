@@ -22,6 +22,9 @@ might want to do cooler things with running arbitrary commands :-)
 The nav layer, so I don't have to stretch my fingers too much:
 ![navigation layer](images/navigation.svg)
 
+The number layer, otherwise I was stretching a little too much:
+![number layer](images/numbers.svg)
+
 The default QWERTY layout that comes with the laptop, for reference:
 ![qwerty layer](images/default.svg)
 

@@ -80,9 +80,10 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
     <rect x="109" y="81" width="50" height="50" rx="3"/>
     <text class="t l" x="117" y="98">Q</text>
   </g>
-  <g class="n">
+  <g class="nav">
     <rect x="165" y="81" width="50" height="50" rx="3"/>
     <text class="t l" x="173" y="98">W</text>
+    <text class="s l" x="173" y="121">num</text>
   </g>
   <g class="nav">
     <rect x="221" y="81" width="50" height="50" rx="3"/>
