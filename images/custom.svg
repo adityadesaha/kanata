@@ -177,7 +177,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
     <rect x="683" y="137" width="50" height="50" rx="3"/>
     <text class="t l" x="691" y="154">O</text>
   </g>
-  <g class="n">
+  <g class="ch">
     <rect x="739" y="137" width="92" height="50" rx="3"/>
     <text class="tl" x="806" y="154">Caps</text>
   </g>
@@ -256,7 +256,7 @@ rect{stroke-width:1.5}.t{font-size:17px}.tl{font-size:14px}.s{font-size:10px}.ft
   <g class="n">
     <rect x="249" y="249" width="274" height="50" rx="3"/>
   </g>
-  <g class="n">
+  <g class="ch">
     <rect x="529" y="249" width="50" height="50" rx="3"/>
     <text class="t l" x="536" y="264">&#x23CE;</text>
   </g>
